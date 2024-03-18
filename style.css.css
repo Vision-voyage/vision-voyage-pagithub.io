@@ -1,0 +1,320 @@
+/* GENERAL*/
+#all{
+    margin-left: 10px;
+    background: url(Canon_190722_0633.avif);
+}
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+h1
+{
+    font-family:"Crete Round",serif;
+    font-size: 45px;
+    color: #444;
+}
+h2
+{
+    color: #444;
+    font-size: 55px;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+.ul
+{
+    list-style: none;
+}
+.wrapper
+{
+    width: 940px;
+    margin:0 auto;
+    padding:0 auto;
+}
+.orange
+{
+    color: #ff7a00;
+}
+h3{
+    color: black;
+}
+textarea{
+    padding: 10px;
+}
+/*header*/
+header
+{
+    height: 120px;
+    background-color: whitesmoke;
+    
+}
+header h1
+{
+    float: left;
+    margin-top: 32px; ;
+}
+header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+header nav ul li
+{
+    display: inline-block;
+}
+header nav ul li a
+{
+    text-transform: lowercase;
+    font-weight: bold;
+    margin-right: 20px;  
+}
+
+.nav-1 a:hover{
+    text-decoration: underline;
+    color: #ff7a00;
+}
+.nav-1{
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.nav-2{
+    height: 20px;
+    width: 85px;
+    background: transparent;
+    padding-left: 5px;
+    border-radius: 10px;
+    background-color: #ff7a00;
+}
+.nav-2:hover{
+    background-color: rgb(243, 204, 130);
+    transition: 1s;
+}
+
+/*main-images*/
+#main-images
+{
+    height: 580px;
+    background: url(iamgeacceuilsite.jpg) center;
+    
+}
+#main-images h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 46px 0;
+    margin-bottom: 20px;
+}
+.button-1
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+/*steps*/
+#steps{
+    margin-top: 80px;   
+}
+#steps h2{
+    font-family:"Crete Round",serif;
+    font-size: 45px;
+    color: #444;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#miami:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    opacity: 0.5;
+    transition: .5s;
+}
+
+#philli:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    opacity: 0.5;
+    transition: .5s;
+}
+#iran:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    opacity: 0.5;
+    transition: .5s;
+}
+#maroc:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    opacity: 0.5;
+    transition: .5s;
+    
+}
+#coun:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    opacity: 0.5;
+    transition: .5s;
+}
+#miami{
+    margin-left: -110px;
+    width: 500px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+#iran{
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin-right: -110px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#philli{
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+    margin-left: -110px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#maroc{
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin-top: 50px;
+    margin-right: -110px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#coun{
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 220px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.wrapper img{
+    height: 300px;
+    width: 500px;
+    margin-top: -20px;  
+}
+
+/*contact*/
+#contact h2{
+    font-family:"Crete Round",serif;
+    font-size: 45px;
+    color: #444;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+#contact{
+    margin-top: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.localisation{
+    width: 49%;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-left: -30px;
+}
+.localisation iframe{
+    width: 100%;
+    border-radius: 6px;
+}
+.joined{
+    width: 49%;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    float: right; 
+    margin-top: -547px;
+    height: 516px;
+    margin-right: -20px;
+    
+}
+.joined a{
+    color: blue;
+}
+.joined iframe{
+    width: 100%;
+    border-radius: 6px;
+}
+.sci{
+    margin-top: 30px;
+    width: 170px;
+    bottom: 40px;
+    margin-left: 140PX; 
+    justify-content: space-between;   
+}
+.sci a{
+    background: transparent;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #444;
+}
+.sci a:hover{
+    color: blue;
+    transition: .5s;
+    transform: scale(1.3);
+} 
+input[type="submit"]{
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 5px;
+    height: 20px;
+    background-color:#ff7a00;
+}
+/*footer*/
+footer
+{
+    margin-top: 40px;
+    height: 120px;
+    background-color: #444;
+}
+footer h1
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+.Copyright
+{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color:#777;
+}

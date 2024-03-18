@@ -1,0 +1,278 @@
+/* GENERAL*/
+#all{
+    margin-left: 10px;
+    background: url(Canon_190722_0633.avif);
+}
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+h1
+{
+    font-family:"Crete Round",serif;
+    font-size: 45px;
+    color: #444;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+.ul
+{
+    list-style: none;
+}
+.wrapper
+{
+    width: 940px;
+    margin:0 auto;
+    padding:0 auto;
+}
+.orange
+{
+    color: #ff7a00;
+}
+
+/*header*/
+header
+{
+    height: 120px;
+    background-color: whitesmoke;
+}
+header h1
+{
+    float: left;
+    margin-top: 32px; ;
+}
+header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+header nav ul li
+{
+    display: inline-block;
+}
+header nav ul li a
+{
+    text-transform: lowercase;
+    font-weight: bold;
+    margin-right: 20px;  
+}
+
+.nav-1 a:hover{
+    text-decoration: underline;
+    color: #ff7a00;
+}
+.nav-1{
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.nav-2{
+    height: 20px;
+    width: 85px;
+    background-color: #ff7a00;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+.nav-2:hover{
+    background-color: rgb(243, 204, 130);
+    transition: 1s;
+}
+
+/*raccourci*/
+
+#rac{
+    display: flex;
+    margin-left: 100px;
+}
+#rac img{
+    height: 100px;
+    width: 200px;
+    border-radius: 5%;
+    margin: 5px;
+}
+#rac img:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+#flem a{
+   margin-top: -300px;
+   position: fixed;
+   margin-left: 1150px;
+   text-align: center;
+   border-style: solid;
+   border-radius: 5px;
+   color: whitesmoke;
+}
+
+/*sous header*/
+
+.sas2{
+    margin-left: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.sas2 a{
+    color: black;
+    padding: 10px;
+}
+.sas2 li{
+    padding: 5px;
+}
+.sas2 a:hover{
+    text-decoration: underline;
+}
+.sas2 img{
+    height: 300px;
+    width: 550px;
+    margin-left: 250px;
+    margin-top: -20px;
+}
+.sas2 h2
+{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sas2 ul 
+{
+    text-transform: uppercase;
+    padding-left: 50PX;
+    padding-right: 50px;
+    line-height: 40px;
+    margin-left: 100px;
+    width: max-content;
+    text-align: left;
+    background-color: rgba(124, 104, 78, 0.623);
+}
+#sas h3{
+   margin-top: 30px;
+   margin-left: 470px;
+   width: 700px;
+}
+.sas{
+    float: left;
+    border-radius: 5px;
+    height: 400px;
+    margin-left: 30px;
+}
+#sas h3{
+    margin-top: 80px;
+}
+
+/*ever*/
+
+#ever h2{
+    margin-top: 300px;
+    text-align: center;
+    text-decoration: underline;
+    font-family:"Crete Round",serif;
+    font-size: 30px;
+    color: #444;
+}
+.ever{
+    float: right;
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 400px;
+}
+#ever h3{
+    margin-top: 80px;
+    margin-right: 650px;
+}
+
+/*museum*/
+
+#museum h2{
+    color: #444;
+    margin-top: 200px;
+    text-align: center;
+    text-decoration: underline;
+    font-family:"Crete Round",serif;
+    font-size: 30px;
+}
+.museum{
+    float: left;
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 300px;
+}
+#museum h3{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 600px;
+}
+
+/*super*/
+
+#super h2{
+    color: #444;
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: underline;
+    font-family:"Crete Round",serif;
+    font-size: 30px;
+}
+.super{
+    float: left;
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 400px;
+}
+#super h3{
+    margin-top: 60px;
+    margin-left: 450px;
+}
+
+/*hava*/
+
+#hava h2{
+    color: #444;
+    margin-top: 200px;
+    text-align: center;
+    text-decoration: underline;
+    font-family:"Crete Round",serif;
+    font-size: 30px;
+}
+.hava{
+    float: left;
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 400px;
+}
+#hava h3{
+    margin-top: 40px;
+    margin-left: 700px;
+}
+/*fun*/
+.wh img{
+    height: 100px;
+    margin-top: 200px;
+}
+/*footer*/
+footer
+{
+    margin-top: 40px;
+    height: 120px;
+    background-color: #444;
+}
+footer h1
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+.Copyright
+{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color:#777;
+}
